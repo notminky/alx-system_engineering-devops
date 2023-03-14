@@ -1,0 +1,9 @@
+#!/bin/bash
+binary=${BINARY:-0}  # Use 0 as default value if BINARY is not set
+decimal=0
+for (( i=${#binary}-1; i>=0; i-- )); do
+    if [[ "${binary:$i:1}" == "1" ]]; then
+        decimal=$((decimal + 2 ** (${#binary}-1-i)))
+    fi
+done
+echo $decimal

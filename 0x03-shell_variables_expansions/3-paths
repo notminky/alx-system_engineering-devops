@@ -1,0 +1,5 @@
+#!/bin/bash
+# Split the PATH variable on the ':' character and count the resulting array
+directories=(${PATH//:/ })
+num_directories=${#directories[@]}
+echo $num_directories

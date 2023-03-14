@@ -1,0 +1,3 @@
+#!/bin/bash
+BEST=School
+echo "BEST variable created with the value: $BEST"

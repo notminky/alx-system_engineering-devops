@@ -1,0 +1,3 @@
+#!/bin/bash
+# display the result of BREATH to the power LOVE
+echo $(echo "$BREATH^$LOVE" | bc)
