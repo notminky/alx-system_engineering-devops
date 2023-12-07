@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -lA . .. /boot
+ls -lA
+ls -lA ..
+sudo ls -lA /boot
