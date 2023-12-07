@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lA . .. ; sudo ls -lA /boot
+ls -a
