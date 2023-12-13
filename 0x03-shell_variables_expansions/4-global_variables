@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "HOME=$HOME SHELL=$SHELL LANG=$LANG PWD=$PWD USER=$USER"
+printenv
