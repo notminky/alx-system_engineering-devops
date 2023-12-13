@@ -1,2 +1,2 @@
 #!/bin/bash
-env | grep '^HBTN='
+echo "HOME=$HOME SHELL=$SHELL LANG=$LANG PWD=$PWD USER=$USER"
