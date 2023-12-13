@@ -1,8 +1,3 @@
 #!/bin/bash
-
-# Script name: 1-hello_you
-# Purpose: Print "hello user" where user is the current Linux user.
-
 current_user=$(whoami)
 echo "hello $current_user"
-
